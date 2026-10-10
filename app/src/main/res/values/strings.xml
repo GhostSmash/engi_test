@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Device Test</string>
+    <string name="app_subtitle">Hardware Diagnostic Suite</string>
+
+    <!-- Top Bar & Main Navigation -->
+    <string name="export_report">Export Report</string>
+    <string name="language_switcher">Language</string>
+    <string name="lang_system">System Default</string>
+    <string name="lang_english">English</string>
+    <string name="lang_russian">Русский</string>
+    <string name="onboarding_title">Setup &amp; Preferences</string>
+    <string name="onboarding_subtitle">Configure language and appearance before starting hardware diagnostics</string>
+    <string name="select_language">Language</string>
+    <string name="select_theme">Theme Mode</string>
+    <string name="theme_system">System Adaptive</string>
+    <string name="theme_light">Clean Light</string>
+    <string name="theme_dark">Dark Mode</string>
+    <string name="get_started">Start Diagnostics</string>
+    <string name="theme_switcher">Theme</string>
+    <string name="view_mode_grid">Grid View</string>
+    <string name="view_mode_list">List View</string>
+    <string name="settings_title">Toolkit Settings</string>
+
+    <!-- Additional Start Settings -->
+    <string name="start_settings_badge">INITIAL CONFIGURATION</string>
+    <string name="start_settings_heading">Start Settings</string>
+    <string name="start_settings_subheading">Set language, theme, and diagnostic preferences</string>
+    <string name="setting_amoled_mode">AMOLED True Black</string>
+    <string name="setting_amoled_desc">Deep #000000 blacks on OLED panels</string>
+    <string name="setting_haptics">Haptic Click Feedback</string>
+    <string name="setting_haptics_desc">Tactile vibration on button presses</string>
+    <string name="setting_sound">Audio Tone Signals</string>
+    <string name="setting_sound_desc">Acoustic chimes on test completion</string>
+    <string name="setting_strict_mode">Strict Hardware Audit</string>
+    <string name="setting_strict_desc">Elevated sensor tolerance thresholds</string>
+    <string name="proceed_to_menu">Enter Testing Hub</string>
+
+    <!-- Testing Modes Hub -->
+    <string name="mode_select_title">Select Testing Mode</string>
+    <string name="mode_select_subtitle">Choose diagnostic depth for your device</string>
+    <string name="mode_basic_title">Basic Auto Test</string>
+    <string name="mode_basic_desc">Automated hardware scan. Evaluates battery, sensors, connectivity, vibrator, RAM &amp; storage, automatically tagging Pass or Fail.</string>
+    <string name="mode_full_title">Full Guided Test</string>
+    <string name="mode_full_desc">Sequential step-by-step test through display, touch, audio, camera, buttons, and sensors. Concludes with a full results table.</string>
+    <string name="mode_manual_title">Manual Diagnostic Suite</string>
+    <string name="mode_manual_desc">Freely explore all 10 diagnostic categories in any order with live telemetry and engineering controls.</string>
+    <string name="action_next">Next</string>
+    <string name="action_skip_step">Skip</string>
+    <string name="action_finish">Finish &amp; View Results</string>
+    <string name="guided_step_indicator">Step %1$d of %2$d: %3$s</string>
+    <string name="guided_summary_title">Test Completion Summary</string>
+    <string name="guided_summary_desc">Comprehensive audit report of all tested components</string>
+    <string name="guided_table_headline">DETAILED AUDIT BREAKDOWN</string>
+    <string name="guided_metric_passed">Passed</string>
+    <string name="guided_metric_failed">Failed</string>
+    <string name="guided_metric_skipped">Skipped</string>
+    <string name="guided_pass_btn">Pass</string>
+    <string name="guided_fail_btn">Fail</string>
+    <string name="guided_skip_btn">Skip</string>
+    <string name="auto_running_status">Analyzing hardware components…</string>
+    <string name="auto_completed_status">Automated diagnostic scan completed</string>
+    <string name="auto_retest">Rerun Auto-Check</string>
+
+    <!-- Guided Steps -->
+    <string name="guided_display_colors">Display Colors &amp; Dead Pixels</string>
+    <string name="guided_display_colors_desc">Cycle full Red, Green, Blue, White, Black</string>
+    <string name="guided_touch_grid">Touch Screen Dead Zones</string>
+    <string name="guided_touch_grid_desc">Draw along screen boundary to verify digitizer</string>
+    <string name="guided_audio_tone">Loudspeakers &amp; Pure Tone</string>
+    <string name="guided_audio_tone_desc">Listen to test tone and verify acoustic clarity</string>
+    <string name="guided_mic_record">Microphone Input &amp; Level</string>
+    <string name="guided_mic_record_desc">Record 5-second snippet and verify level</string>
+    <string name="guided_buttons">Physical Volume Keys</string>
+    <string name="guided_buttons_desc">Press Volume Up and Volume Down hardware buttons</string>
+    <string name="guided_camera_torch">Camera Viewfinder &amp; Torch</string>
+    <string name="guided_camera_torch_desc">Inspect live preview and toggle flashlight</string>
+    <string name="guided_vibration">Haptics &amp; Vibration Motor</string>
+    <string name="guided_vibration_desc">Trigger vibration pulse and haptic clicks</string>
+    <string name="guided_battery">Battery &amp; Charger Telemetry</string>
+    <string name="guided_battery_desc">Inspect level, voltage, temp and charger plug</string>
+    <string name="guided_sensors">Accelerometer Motion Sensor</string>
+    <string name="guided_sensors_desc">Tilt device to verify gravity sensor response</string>
+    <string name="guided_connectivity">Wireless Radios (Wi-Fi / BT / NFC)</string>
+    <string name="guided_connectivity_desc">Inspect Wi-Fi, Bluetooth and NFC adapters</string>
+    <string name="guided_biometrics">Biometric Scanner</string>
+    <string name="guided_biometrics_desc">Verify fingerprint / face hardware readiness</string>
+    <string name="guided_system">System Specs &amp; GPU Info</string>
+    <string name="guided_system_desc">Verify processor architecture, RAM and OS build</string>
+
+    <!-- Auto Check Items -->
+    <string name="check_battery_name">Battery &amp; Power Subsystem</string>
+    <string name="check_battery_detail">Voltage &amp; health telemetry</string>
+    <string name="check_accel_name">Accelerometer Motion Sensor</string>
+    <string name="check_accel_detail">Gravity vector sensor check</string>
+    <string name="check_gyro_name">Gyroscope Angular Sensor</string>
+    <string name="check_gyro_detail">Rotation rate detection</string>
+    <string name="check_magnetic_name">Magnetometer / Compass</string>
+    <string name="check_magnetic_detail">Magnetic field flux detection</string>
+    <string name="check_proximity_name">Proximity Range Sensor</string>
+    <string name="check_proximity_detail">Obstruction presence detection</string>
+    <string name="check_light_name">Ambient Light Sensor</string>
+    <string name="check_light_detail">Photodiode illuminance telemetry</string>
+    <string name="check_vibrator_name">Haptic Motor &amp; Vibrator</string>
+    <string name="check_vibrator_detail">Actuator hardware check</string>
+    <string name="check_wifi_name">Wi-Fi Adapter Subsystem</string>
+    <string name="check_wifi_detail">Wireless transceiver check</string>
+    <string name="check_bt_name">Bluetooth Radio Controller</string>
+    <string name="check_bt_detail">Bluetooth protocol hardware</string>
+    <string name="check_ram_name">RAM Memory Pool</string>
+    <string name="check_ram_detail">Available allocation check</string>
+    <string name="check_storage_name">Storage Flash Memory</string>
+    <string name="check_storage_detail">Internal block filesystem check</string>
+    <string name="check_biometrics_name">Biometric Authentication HW</string>
+    <string name="check_biometrics_detail">Class 2 / Class 3 sensor query</string>
+    <string name="check_cpu_name">CPU Multi-Core Subsystem</string>
+    <string name="check_cpu_detail">Active processor cores &amp; ABI</string>
+
+    <string name="summary_card_title">Test Overview</string>
+    <string name="summary_tests_passed">%1$d Passed</string>
+    <string name="summary_tests_failed">%1$d Failed</string>
+    <string name="summary_tests_untested">%1$d Untested</string>
+    <string name="reset_all_tests">Reset All Tests</string>
+    <string name="reset_confirm">Reset all test results?</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset">Reset</string>
+
+    <!-- Status Chips & Actions -->
+    <string name="status_untested">Not Tested</string>
+    <string name="status_passed">Passed</string>
+    <string name="status_failed">Failed</string>
+    <string name="status_skipped">Skipped</string>
+    <string name="mark_passed">Mark as Passed</string>
+    <string name="mark_failed">Mark as Failed</string>
+    <string name="mark_skipped">Skip Test</string>
+    <string name="retest">Retest</string>
+    <string name="action_start">Start</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_clear">Clear</string>
+    <string name="back">Back</string>
+    <string name="close">Close</string>
+    <string name="double_tap_to_exit">Double tap anywhere to exit fullscreen</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="not_available">Not available</string>
+    <string name="unknown">Unknown</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Categories -->
+    <string name="category_display">Display</string>
+    <string name="category_display_desc">Dead pixels, color depth, touch screen &amp; refresh rate</string>
+    <string name="category_audio">Audio</string>
+    <string name="category_audio_desc">Tone generator, stereo balance &amp; microphone</string>
+    <string name="category_battery">Battery &amp; Charging</string>
+    <string name="category_battery_desc">Health, voltage, temperature, current &amp; charger detection</string>
+    <string name="category_sensors">Sensors</string>
+    <string name="category_sensors_desc">Motion, environment, position &amp; step telemetry</string>
+    <string name="category_buttons">Hardware Buttons</string>
+    <string name="category_buttons_desc">Volume up/down and physical key press verification</string>
+    <string name="category_camera">Camera &amp; Torch</string>
+    <string name="category_camera_desc">Back/front camera preview and flashlight toggle</string>
+    <string name="category_vibration">Vibration &amp; Haptics</string>
+    <string name="category_vibration_desc">Haptic feedback motor and vibration waveform patterns</string>
+    <string name="category_connectivity">Connectivity</string>
+    <string name="category_connectivity_desc">Wi-Fi, Bluetooth, NFC, GPS location &amp; cellular</string>
+    <string name="category_biometrics">Biometrics</string>
+    <string name="category_biometrics_desc">Fingerprint / face recognition capability check</string>
+    <string name="category_system">System &amp; Hardware</string>
+    <string name="category_system_desc">SoC, RAM, storage, GPU renderer &amp; kernel info</string>
+
+    <!-- Display Subtests -->
+    <string name="display_colors_title">Solid Colors Test</string>
+    <string name="display_colors_desc">Check for dead or stuck pixels and backlight bleed</string>
+    <string name="display_colors_tap_hint">Tap to cycle colors: Red, Green, Blue, White, Black</string>
+    <string name="display_color_red">Red (R:255)</string>
+    <string name="display_color_green">Green (G:255)</string>
+    <string name="display_color_blue">Blue (B:255)</string>
+    <string name="display_color_white">White (RGB:255)</string>
+    <string name="display_color_black">Black (RGB:0)</string>
+
+    <string name="display_gradients_title">Gradient Ramps</string>
+    <string name="display_gradients_desc">256-step gradients to detect color banding and bit depth</string>
+    <string name="gradient_grayscale">Grayscale Ramp (0 - 255)</string>
+    <string name="gradient_red">Red Channel Ramp</string>
+    <string name="gradient_green">Green Channel Ramp</string>
+    <string name="gradient_blue">Blue Channel Ramp</string>
+
+    <string name="display_touch_grid_title">Touch Edge &amp; Grid Test</string>
+    <string name="display_touch_grid_desc">Draw over edges, corners, and cross lines to detect dead zones</string>
+    <string name="touch_grid_coverage">Zones Covered: %1$d / %2$d (%3$d%%)</string>
+    <string name="touch_grid_completed">All edge and diagonal zones successfully verified!</string>
+    <string name="touch_grid_hint">Swipe along outer edges, corners, and diagonal lines</string>
+
+    <string name="display_multitouch_title">Multi-Touch Pointer Test</string>
+    <string name="display_multitouch_desc">Touch screen with multiple fingers to test digitizer limit</string>
+    <string name="multitouch_current">Current active pointers: %1$d</string>
+    <string name="multitouch_max">Max simultaneous pointers registered: %1$d</string>
+    <string name="multitouch_hint">Place 2, 3, 5, or 10 fingers on the screen</string>
+
+    <string name="display_info_title">Display Specs &amp; Brightness</string>
+    <string name="display_info_desc">Resolution, refresh rate, HDR and brightness control</string>
+    <string name="screen_resolution">Resolution</string>
+    <string name="screen_density">Density (DPI)</string>
+    <string name="screen_refresh_rate">Current Refresh Rate</string>
+    <string name="screen_supported_modes">Supported Refresh Modes</string>
+    <string name="screen_hdr_support">HDR Support</string>
+    <string name="screen_wide_color">Wide Color Gamut (Display P3)</string>
+    <string name="screen_brightness_test">Brightness Adjustment Test</string>
+    <string name="screen_brightness_slider">Screen brightness: %1$d%%</string>
+
+    <!-- Audio Subtests -->
+    <string name="audio_tones_title">Sine Tone Generator</string>
+    <string name="audio_tones_desc">Generate continuous pure sine waves and frequency sweeps</string>
+    <string name="audio_freq_label">Frequency: %1$d Hz</string>
+    <string name="audio_preset_sweep">Sweep (20 Hz - 20 kHz)</string>
+    <string name="audio_stereo_title">Stereo Channel Separation</string>
+    <string name="audio_stereo_desc">Verify left and right loudspeaker channel output</string>
+    <string name="audio_play_left">Play Left Channel Only</string>
+    <string name="audio_play_right">Play Right Channel Only</string>
+    <string name="audio_play_both">Play Both (Stereo)</string>
+    <string name="audio_volume_label">Media Volume: %1$d / %2$d</string>
+    <string name="audio_mic_title">Microphone Recording &amp; Level</string>
+    <string name="audio_mic_desc">Record a 5-second audio snippet and monitor input level</string>
+    <string name="audio_record_5s">Record 5 Seconds</string>
+    <string name="audio_play_recording">Play Back Recording</string>
+    <string name="audio_recording_progress">Recording… %1$d s</string>
+    <string name="audio_recording_done">Recording finished. Press play to listen.</string>
+    <string name="audio_mic_permission_needed">Microphone permission is needed to record audio.</string>
+    <string name="audio_mic_level">Input Audio Level (VU)</string>
+
+    <!-- Battery -->
+    <string name="battery_level">Battery Level</string>
+    <string name="battery_status">Status</string>
+    <string name="battery_plug_type">Power Source</string>
+    <string name="battery_voltage">Voltage</string>
+    <string name="battery_temp">Temperature</string>
+    <string name="battery_health">Health</string>
+    <string name="battery_technology">Technology</string>
+    <string name="battery_current_now">Current Now</string>
+    <string name="battery_current_avg">Average Current</string>
+    <string name="battery_charge_counter">Charge Counter</string>
+    <string name="battery_capacity">Estimated Capacity</string>
+    <string name="battery_events_log">Charger Plug / Unplug Event Log</string>
+    <string name="battery_event_plugged">Charger connected (%1$s) at %2$s</string>
+    <string name="battery_event_unplugged">Charger disconnected at %1$s</string>
+    <string name="battery_waiting_events">Connect or disconnect a charger to observe live events</string>
+
+    <!-- Sensors -->
+    <string name="sensors_count">%1$d Hardware Sensors Detected</string>
+    <string name="sensor_accelerometer">Accelerometer</string>
+    <string name="sensor_gyroscope">Gyroscope</string>
+    <string name="sensor_magnetic">Magnetometer (Compass)</string>
+    <string name="sensor_proximity">Proximity Sensor</string>
+    <string name="sensor_light">Ambient Light Sensor</string>
+    <string name="sensor_barometer">Barometer (Pressure)</string>
+    <string name="sensor_step_counter">Step Counter</string>
+    <string name="sensor_vendor">Vendor: %1$s</string>
+    <string name="sensor_range">Max Range: %1$.2f</string>
+    <string name="sensor_resolution">Resolution: %1$.5f</string>
+    <string name="sensor_power">Power: %1$.2f mA</string>
+    <string name="sensor_live_values">Live Telemetry</string>
+    <string name="sensor_not_present">Sensor not present on this device</string>
+
+    <!-- Hardware Buttons -->
+    <string name="buttons_instructions">Press physical hardware buttons on your device to verify they respond.</string>
+    <string name="button_volume_up">Volume Up</string>
+    <string name="button_volume_down">Volume Down</string>
+    <string name="button_press_count">Times Pressed: %1$d</string>
+    <string name="button_last_detected">Last Key Detected: %1$s</string>
+    <string name="button_test_passed_hint">Press both Volume Up and Volume Down to pass the test.</string>
+
+    <!-- Camera -->
+    <string name="camera_permission_needed">Camera permission is required to test camera sensor.</string>
+    <string name="camera_switch_lens">Switch Camera (Current: %1$s)</string>
+    <string name="camera_back">Rear Camera</string>
+    <string name="camera_front">Front / Selfie Camera</string>
+    <string name="camera_torch_toggle">Flashlight / Torch</string>
+    <string name="camera_torch_on">Torch ON</string>
+    <string name="camera_torch_off">Torch OFF</string>
+    <string name="camera_torch_not_supported">Torch not supported on this lens</string>
+
+    <!-- Vibration -->
+    <string name="vibration_instructions">Tap below to test vibrator waveforms and tactile haptics.</string>
+    <string name="vibration_short_pulse">Short Pulse (100 ms)</string>
+    <string name="vibration_long_pulse">Long Pulse (500 ms)</string>
+    <string name="vibration_double_pulse">Double Pulse</string>
+    <string name="vibration_click">Haptic Click</string>
+    <string name="vibration_heavy_click">Heavy Click</string>
+    <string name="vibration_sos">SOS Pattern</string>
+
+    <!-- Connectivity -->
+    <string name="conn_wifi">Wi-Fi</string>
+    <string name="conn_bluetooth">Bluetooth</string>
+    <string name="conn_nfc">NFC (Near Field)</string>
+    <string name="conn_gps">GPS / Location</string>
+    <string name="conn_cellular">Cellular Network</string>
+    <string name="conn_usb">USB State</string>
+    <string name="conn_enabled">Enabled</string>
+    <string name="conn_disabled">Disabled</string>
+    <string name="conn_supported">Supported</string>
+    <string name="conn_unsupported">Not Supported</string>
+    <string name="conn_wifi_ssid">SSID / State</string>
+    <string name="conn_wifi_ip">IP Address</string>
+    <string name="conn_wifi_speed">Link Speed</string>
+    <string name="conn_gps_request">Request GPS Coordinates</string>
+    <string name="conn_gps_loc">Location: Lat %1$.4f, Lon %2$.4f (Acc: %3$.1fm)</string>
+    <string name="conn_carrier">Carrier / Operator</string>
+    <string name="conn_net_type">Network Generation</string>
+
+    <!-- Biometrics -->
+    <string name="biometric_title">Biometric Authentication</string>
+    <string name="biometric_status_label">Hardware Support Status</string>
+    <string name="biometric_strong">Class 3 (Strong Biometrics Supported)</string>
+    <string name="biometric_weak">Class 2 (Weak Biometrics Supported)</string>
+    <string name="biometric_none_enrolled">Hardware available, but no fingerprints/faces enrolled</string>
+    <string name="biometric_no_hardware">No biometric sensor detected</string>
+    <string name="biometric_hw_unavailable">Biometric hardware currently unavailable</string>
+    <string name="biometric_test_button">Trigger Authentication Prompt</string>
+    <string name="biometric_prompt_title">Verify Device Biometrics</string>
+    <string name="biometric_prompt_subtitle">Touch fingerprint sensor or scan face</string>
+    <string name="biometric_auth_success">Authentication successful! Biometric sensor verified.</string>
+    <string name="biometric_auth_failed">Authentication rejected.</string>
+    <string name="biometric_auth_error">Biometric error: %1$s</string>
+
+    <!-- System Info -->
+    <string name="sys_device">Device Model</string>
+    <string name="sys_manufacturer">Manufacturer</string>
+    <string name="sys_brand">Brand &amp; Product</string>
+    <string name="sys_board">Board &amp; Hardware</string>
+    <string name="sys_soc_abi">CPU ABIs</string>
+    <string name="sys_android_ver">Android Version</string>
+    <string name="sys_api_level">API Level</string>
+    <string name="sys_security_patch">Security Patch</string>
+    <string name="sys_build_id">Build Fingerprint</string>
+    <string name="sys_ram_total">Total RAM</string>
+    <string name="sys_ram_available">Available RAM</string>
+    <string name="sys_storage_total">Internal Storage Total</string>
+    <string name="sys_storage_free">Internal Storage Free</string>
+    <string name="sys_gpu_vendor">GPU Vendor</string>
+    <string name="sys_gpu_renderer">GPU Renderer</string>
+    <string name="sys_gles_version">OpenGL ES Version</string>
+    <string name="sys_kernel">Linux Kernel Version</string>
+
+    <!-- Report -->
+    <string name="report_title">Device Test Diagnostics Report</string>
+    <string name="report_generated_at">Generated at: %1$s</string>
+    <string name="report_shared_title">Share Device Test Report</string>
+</resources>

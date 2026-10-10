@@ -1,0 +1,6 @@
+{
+  "name": "Device Test",
+  "description": "Comprehensive engineering-menu-style hardware diagnostic toolkit for testing mobile devices without root.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

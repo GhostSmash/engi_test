@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Device Test</string>
+    <string name="app_subtitle">Набор аппаратной диагностики</string>
+
+    <!-- Top Bar & Main Navigation -->
+    <string name="export_report">Экспорт отчета</string>
+    <string name="language_switcher">Язык</string>
+    <string name="lang_system">Системный</string>
+    <string name="lang_english">English</string>
+    <string name="lang_russian">Русский</string>
+    <string name="onboarding_title">Начальная настройка</string>
+    <string name="onboarding_subtitle">Выберите язык и тему оформления перед началом диагностики устройства</string>
+    <string name="select_language">Язык интерфейса</string>
+    <string name="select_theme">Тема оформления</string>
+    <string name="theme_system">Адаптивная (Системная)</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная тема</string>
+    <string name="get_started">Начать диагностику</string>
+    <string name="theme_switcher">Тема</string>
+    <string name="view_mode_grid">Сетка</string>
+    <string name="view_mode_list">Список</string>
+    <string name="settings_title">Параметры</string>
+
+    <!-- Additional Start Settings -->
+    <string name="start_settings_badge">НАЧАЛЬНАЯ НАСТРОЙКА</string>
+    <string name="start_settings_heading">Параметры запуска</string>
+    <string name="start_settings_subheading">Настройте язык, тему и параметры диагностики</string>
+    <string name="setting_amoled_mode">AMOLED глубокий чёрный</string>
+    <string name="setting_amoled_desc">Чистый черный цвет фона #000000 для OLED</string>
+    <string name="setting_haptics">Тактильный виброотклик</string>
+    <string name="setting_haptics_desc">Вибрация при нажатии кнопок и переключениях</string>
+    <string name="setting_sound">Звуковые сигналы</string>
+    <string name="setting_sound_desc">Аудио-сигналы при завершении тестов</string>
+    <string name="setting_strict_mode">Строгая проверка</string>
+    <string name="setting_strict_desc">Повышенные требования к допускам датчиков</string>
+    <string name="proceed_to_menu">Перейти в меню тестов</string>
+
+    <!-- Testing Modes Hub -->
+    <string name="mode_select_title">Режим тестирования</string>
+    <string name="mode_select_subtitle">Выберите глубину и формат проверки устройства</string>
+    <string name="mode_basic_title">Базовое тестирование</string>
+    <string name="mode_basic_desc">Автоматическая экспресс-проверка. Приложение само сканирует датчики, аккумулятор, сеть, вибро, память и выводит Pass или Fail.</string>
+    <string name="mode_full_title">Полное (сложное) тестирование</string>
+    <string name="mode_full_desc">Последовательный пошаговый тест всех подсистем (экран, тач, звук, микрофон, кнопки, камера). В конце — полная итоговая таблица.</string>
+    <string name="mode_manual_title">Мануальное тестирование</string>
+    <string name="mode_manual_desc">Инженерное меню со свободным выбором любого из 10 тестов, детальными параметрами и живой телеметрией.</string>
+    <string name="action_next">Дальше</string>
+    <string name="action_skip_step">Пропустить</string>
+    <string name="action_finish">Завершить и показать итоги</string>
+    <string name="guided_step_indicator">Шаг %1$d из %2$d: %3$s</string>
+    <string name="guided_summary_title">Итоговая таблица результатов</string>
+    <string name="guided_summary_desc">Сводка проверки исправности всех компонентов смартфона</string>
+    <string name="guided_table_headline">ДЕТАЛЬНАЯ ТАБЛИЦА РЕЗУЛЬТАТОВ</string>
+    <string name="guided_metric_passed">Пройдено</string>
+    <string name="guided_metric_failed">Ошибки</string>
+    <string name="guided_metric_skipped">Пропущено</string>
+    <string name="guided_pass_btn">Pass</string>
+    <string name="guided_fail_btn">Fail</string>
+    <string name="guided_skip_btn">Пропустить</string>
+    <string name="auto_running_status">Диагностика аппаратных модулей…</string>
+    <string name="auto_completed_status">Автоматическая проверка успешно завершена</string>
+    <string name="auto_retest">Повторить авто-тест</string>
+
+    <!-- Guided Steps -->
+    <string name="guided_display_colors">Цвета дисплея и битые пиксели</string>
+    <string name="guided_display_colors_desc">Переключение цветов: Красный, Зелёный, Синий, Белый, Чёрный</string>
+    <string name="guided_touch_grid">Мёртвые зоны тачскрина</string>
+    <string name="guided_touch_grid_desc">Проведите пальцем по периметру и диагоналям сетки</string>
+    <string name="guided_audio_tone">Динамики и чистый тон</string>
+    <string name="guided_audio_tone_desc">Прослушайте тестовый тон 440 Гц и оцените чистоту звука</string>
+    <string name="guided_mic_record">Запись микрофона и уровень</string>
+    <string name="guided_mic_record_desc">Запишите 5 секунд звука и проверьте уровень сигнала</string>
+    <string name="guided_buttons">Физические клавиши громкости</string>
+    <string name="guided_buttons_desc">Нажмите кнопки громкости Вверх и Вниз</string>
+    <string name="guided_camera_torch">Видоискатель камеры и вспышка</string>
+    <string name="guided_camera_torch_desc">Проверьте живое видео с камеры и включите фонарик</string>
+    <string name="guided_vibration">Вибромотор и тактильный отклик</string>
+    <string name="guided_vibration_desc">Проверьте вибрацию и щелчки вибромотора</string>
+    <string name="guided_battery">Батарея и телеметрия зарядки</string>
+    <string name="guided_battery_desc">Проверьте статус зарядки, напряжение и температуру</string>
+    <string name="guided_sensors">Датчик движения (акселерометр)</string>
+    <string name="guided_sensors_desc">Наклоняйте смартфон для проверки датчика уровня</string>
+    <string name="guided_connectivity">Беспроводные модули (Wi-Fi / BT / NFC)</string>
+    <string name="guided_connectivity_desc">Проверьте работу Wi-Fi, Bluetooth и NFC адаптеров</string>
+    <string name="guided_biometrics">Биометрический сканер</string>
+    <string name="guided_biometrics_desc">Проверьте готовность сканера отпечатков пальцев / лица</string>
+    <string name="guided_system">Характеристики системы и GPU</string>
+    <string name="guided_system_desc">Проверьте архитектуру CPU, оперативную память и сборку</string>
+
+    <!-- Auto Check Items -->
+    <string name="check_battery_name">Подсистема питания и батарея</string>
+    <string name="check_battery_detail">Проверка напряжения и здоровья аккумулятора</string>
+    <string name="check_accel_name">Акселерометр (датчик движения)</string>
+    <string name="check_accel_detail">Проверка вектора гравитации и ускорения</string>
+    <string name="check_gyro_name">Гироскоп (угловой датчик)</string>
+    <string name="check_gyro_detail">Определение вращения вокруг осей</string>
+    <string name="check_magnetic_name">Магнитометр (электронный компас)</string>
+    <string name="check_magnetic_detail">Измерение напряженности магнитного поля</string>
+    <string name="check_proximity_name">Датчик приближения</string>
+    <string name="check_proximity_detail">Определение приближения объекта к экрану</string>
+    <string name="check_light_name">Датчик освещенности</string>
+    <string name="check_light_detail">Телеметрия фотодиода внешней освещенности</string>
+    <string name="check_vibrator_name">Вибромотор и тактильный модуль</string>
+    <string name="check_vibrator_detail">Проверка аппаратного вибропривода</string>
+    <string name="check_wifi_name">Беспроводной адаптер Wi-Fi</string>
+    <string name="check_wifi_detail">Проверка приемопередатчика Wi-Fi</string>
+    <string name="check_bt_name">Bluetooth радио-контроллер</string>
+    <string name="check_bt_detail">Проверка аппаратного стека Bluetooth</string>
+    <string name="check_ram_name">Оперативная память (RAM)</string>
+    <string name="check_ram_detail">Проверка объема и доступности свободной памяти</string>
+    <string name="check_storage_name">Внутренний накопитель (Flash)</string>
+    <string name="check_storage_detail">Проверка файловой системы накопителя</string>
+    <string name="check_biometrics_name">Биометрический модуль</string>
+    <string name="check_biometrics_detail">Опрос датчиков Class 2 / Class 3</string>
+    <string name="check_cpu_name">Многоядерный процессор (CPU)</string>
+    <string name="check_cpu_detail">Активные ядра процессора и архитектура ABI</string>
+
+    <string name="summary_card_title">Сводка тестирования</string>
+    <string name="summary_tests_passed">Пройдено: %1$d</string>
+    <string name="summary_tests_failed">Ошибок: %1$d</string>
+    <string name="summary_tests_untested">Не проверено: %1$d</string>
+    <string name="reset_all_tests">Сбросить все тесты</string>
+    <string name="reset_confirm">Сбросить результаты всех тестов?</string>
+    <string name="cancel">Отмена</string>
+    <string name="reset">Сбросить</string>
+
+    <!-- Status Chips & Actions -->
+    <string name="status_untested">Не проверен</string>
+    <string name="status_passed">Пройден</string>
+    <string name="status_failed">Ошибка</string>
+    <string name="status_skipped">Пропущен</string>
+    <string name="mark_passed">Отметить как пройденный</string>
+    <string name="mark_failed">Отметить как ошибку</string>
+    <string name="mark_skipped">Пропустить тест</string>
+    <string name="retest">Повторить</string>
+    <string name="action_start">Старт</string>
+    <string name="action_stop">Стоп</string>
+    <string name="action_clear">Очистить</string>
+    <string name="back">Назад</string>
+    <string name="close">Закрыть</string>
+    <string name="double_tap_to_exit">Дважды коснитесь экрана для выхода из полноэкранного режима</string>
+    <string name="permission_required">Требуется разрешение</string>
+    <string name="grant_permission">Предоставить разрешение</string>
+    <string name="not_available">Недоступно</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+
+    <!-- Categories -->
+    <string name="category_display">Экран и тачскрин</string>
+    <string name="category_display_desc">Битые пиксели, градиенты, мертвые зоны тача и частота обновления</string>
+    <string name="category_audio">Звук и динамики</string>
+    <string name="category_audio_desc">Генератор частот, стереоканалы и микрофон</string>
+    <string name="category_battery">Аккумулятор и зарядка</string>
+    <string name="category_battery_desc">Состояние, вольтаж, температура, ток и события подключения</string>
+    <string name="category_sensors">Датчики</string>
+    <string name="category_sensors_desc">Акселерометр, гироскоп, компас, освещение и шагомер</string>
+    <string name="category_buttons">Физические кнопки</string>
+    <string name="category_buttons_desc">Проверка кнопок громкости и аппаратных клавиш</string>
+    <string name="category_camera">Камера и фонарик</string>
+    <string name="category_camera_desc">Просмотр с основной и фронтальной камеры, тест вспышки</string>
+    <string name="category_vibration">Вибрация и тактильность</string>
+    <string name="category_vibration_desc">Вибромотор, тактильный отклик и шаблоны вибрации</string>
+    <string name="category_connectivity">Беспроводная связь</string>
+    <string name="category_connectivity_desc">Wi-Fi, Bluetooth, NFC, GPS координаты и мобильная сеть</string>
+    <string name="category_biometrics">Биометрия</string>
+    <string name="category_biometrics_desc">Проверка сканера отпечатка пальца и распознавания лица</string>
+    <string name="category_system">Система и "железо"</string>
+    <string name="category_system_desc">Процессор, ОЗУ, накопитель, GPU рендерер и ядро Linux</string>
+
+    <!-- Display Subtests -->
+    <string name="display_colors_title">Заливка цветом</string>
+    <string name="display_colors_desc">Поиск битых/зависших пикселей и засветов подсветки</string>
+    <string name="display_colors_tap_hint">Нажимайте для смены цвета: Красный, Зеленый, Синий, Белый, Черный</string>
+    <string name="display_color_red">Красный (R:255)</string>
+    <string name="display_color_green">Зеленый (G:255)</string>
+    <string name="display_color_blue">Синий (B:255)</string>
+    <string name="display_color_white">Белый (RGB:255)</string>
+    <string name="display_color_black">Черный (RGB:0)</string>
+
+    <string name="display_gradients_title">Градиентные шкалы</string>
+    <string name="display_gradients_desc">256-шаговые градиенты для проверки битности и ступенчатости</string>
+    <string name="gradient_grayscale">Оттенки серого (0 - 255)</string>
+    <string name="gradient_red">Шкала красного канала</string>
+    <string name="gradient_green">Шкала зеленого канала</string>
+    <string name="gradient_blue">Шкала синего канала</string>
+
+    <string name="display_touch_grid_title">Сетка и края сенсора</string>
+    <string name="display_touch_grid_desc">Проведите по краям, углам и диагоналям для выявления слепых зон</string>
+    <string name="touch_grid_coverage">Зон покрыто: %1$d / %2$d (%3$d%%)</string>
+    <string name="touch_grid_completed">Все контрольные зоны экрана успешно пройдены!</string>
+    <string name="touch_grid_hint">Проведите пальцем по рамке, углам и диагональным линиям</string>
+
+    <string name="display_multitouch_title">Мультитач тест</string>
+    <string name="display_multitouch_desc">Касайтесь несколькими пальцами для проверки предела сенсора</string>
+    <string name="multitouch_current">Активных касаний: %1$d</string>
+    <string name="multitouch_max">Максимум одновременных касаний: %1$d</string>
+    <string name="multitouch_hint">Прикоснитесь 2, 3, 5 или 10 пальцами одновременно</string>
+
+    <string name="display_info_title">Параметры экрана и яркость</string>
+    <string name="display_info_desc">Разрешение, частота Гц, поддержка HDR и проверка регулятора яркости</string>
+    <string name="screen_resolution">Разрешение экрана</string>
+    <string name="screen_density">Плотность (DPI)</string>
+    <string name="screen_refresh_rate">Текущая частота обновления</string>
+    <string name="screen_supported_modes">Поддерживаемые режимы Гц</string>
+    <string name="screen_hdr_support">Поддержка HDR</string>
+    <string name="screen_wide_color">Широкий цветовой охват (P3)</string>
+    <string name="screen_brightness_test">Тест регулировки яркости</string>
+    <string name="screen_brightness_slider">Яркость экрана: %1$d%%</string>
+
+    <!-- Audio Subtests -->
+    <string name="audio_tones_title">Генератор синусоиды</string>
+    <string name="audio_tones_desc">Генерация чистого тона и частотного свипа</string>
+    <string name="audio_freq_label">Частота: %1$d Гц</string>
+    <string name="audio_preset_sweep">Свип (20 Гц - 20 кГц)</string>
+    <string name="audio_stereo_title">Тест стереоканалов</string>
+    <string name="audio_stereo_desc">Проверка разделения левого и правого динамика</string>
+    <string name="audio_play_left">Только левый канал</string>
+    <string name="audio_play_right">Только правый канал</string>
+    <string name="audio_play_both">Оба канала (Стерео)</string>
+    <string name="audio_volume_label">Громкость медиа: %1$d / %2$d</string>
+    <string name="audio_mic_title">Запись микрофона и уровень</string>
+    <string name="audio_mic_desc">Запись 5-секундного фрагмента и индикатор уровня сигнала</string>
+    <string name="audio_record_5s">Записать 5 секунд</string>
+    <string name="audio_play_recording">Воспроизвести запись</string>
+    <string name="audio_recording_progress">Запись… %1$d сек</string>
+    <string name="audio_recording_done">Запись завершена. Нажмите воспроизведение для проверки.</string>
+    <string name="audio_mic_permission_needed">Для проверки записи требуется доступ к микрофону.</string>
+    <string name="audio_mic_level">Входной уровень микрофона</string>
+
+    <!-- Battery -->
+    <string name="battery_level">Уровень заряда</string>
+    <string name="battery_status">Состояние</string>
+    <string name="battery_plug_type">Источник питания</string>
+    <string name="battery_voltage">Напряжение</string>
+    <string name="battery_temp">Температура</string>
+    <string name="battery_health">Здоровье батареи</string>
+    <string name="battery_technology">Тип элемента</string>
+    <string name="battery_current_now">Текущий ток</string>
+    <string name="battery_current_avg">Средний ток</string>
+    <string name="battery_charge_counter">Счетчик заряда</string>
+    <string name="battery_capacity">Расчетная емкость</string>
+    <string name="battery_events_log">Журнал подключения/отключения ЗУ</string>
+    <string name="battery_event_plugged">Зарядное устройство подключено (%1$s) в %2$s</string>
+    <string name="battery_event_unplugged">Зарядное устройство отключено в %1$s</string>
+    <string name="battery_waiting_events">Подключите или отключите кабель для фиксации события</string>
+
+    <!-- Sensors -->
+    <string name="sensors_count">Обнаружено датчиков: %1$d</string>
+    <string name="sensor_accelerometer">Акселерометр</string>
+    <string name="sensor_gyroscope">Гироскоп</string>
+    <string name="sensor_magnetic">Магнитометр (Компас)</string>
+    <string name="sensor_proximity">Датчик приближения</string>
+    <string name="sensor_light">Датчик освещенности</string>
+    <string name="sensor_barometer">Барометр (Давление)</string>
+    <string name="sensor_step_counter">Шагомер</string>
+    <string name="sensor_vendor">Производитель: %1$s</string>
+    <string name="sensor_range">Макс. диапазон: %1$.2f</string>
+    <string name="sensor_resolution">Разрешение: %1$.5f</string>
+    <string name="sensor_power">Потребление: %1$.2f мА</string>
+    <string name="sensor_live_values">Текущие показания</string>
+    <string name="sensor_not_present">Датчик отсутствует в данном устройстве</string>
+
+    <!-- Hardware Buttons -->
+    <string name="buttons_instructions">Нажимайте физические кнопки на корпусе устройства для проверки отклика.</string>
+    <string name="button_volume_up">Громкость вверх (+)</string>
+    <string name="button_volume_down">Громкость вниз (-)</string>
+    <string name="button_press_count">Нажатий зафиксировано: %1$d</string>
+    <string name="button_last_detected">Последняя клавиша: %1$s</string>
+    <string name="button_test_passed_hint">Нажмите обе клавиши громкости для успешного прохождения теста.</string>
+
+    <!-- Camera -->
+    <string name="camera_permission_needed">Для тестирования сенсоров камеры требуется разрешение.</string>
+    <string name="camera_switch_lens">Сменить камеру (Текущая: %1$s)</string>
+    <string name="camera_back">Основная (задняя)</string>
+    <string name="camera_front">Фронтальная (селфи)</string>
+    <string name="camera_torch_toggle">Фонарик / Вспышка</string>
+    <string name="camera_torch_on">Фонарик ВКЛ</string>
+    <string name="camera_torch_off">Фонарик ВЫКЛ</string>
+    <string name="camera_torch_not_supported">Вспышка не поддерживается этим модулем</string>
+
+    <!-- Vibration -->
+    <string name="vibration_instructions">Нажимайте кнопки для проверки вибромотора и тактильного отклика.</string>
+    <string name="vibration_short_pulse">Короткий импульс (100 мс)</string>
+    <string name="vibration_long_pulse">Длинный импульс (500 мс)</string>
+    <string name="vibration_double_pulse">Двойной импульс</string>
+    <string name="vibration_click">Тактильный щелчок (Click)</string>
+    <string name="vibration_heavy_click">Тяжелый щелчок (Heavy)</string>
+    <string name="vibration_sos">Сигнал SOS</string>
+
+    <!-- Connectivity -->
+    <string name="conn_wifi">Wi-Fi</string>
+    <string name="conn_bluetooth">Bluetooth</string>
+    <string name="conn_nfc">NFC (Бесконтактный чип)</string>
+    <string name="conn_gps">GPS / Геолокация</string>
+    <string name="conn_cellular">Сотовая связь</string>
+    <string name="conn_usb">Состояние USB</string>
+    <string name="conn_enabled">Включено</string>
+    <string name="conn_disabled">Выключено</string>
+    <string name="conn_supported">Поддерживается</string>
+    <string name="conn_unsupported">Не поддерживается</string>
+    <string name="conn_wifi_ssid">Сеть / Статус</string>
+    <string name="conn_wifi_ip">IP-адрес</string>
+    <string name="conn_wifi_speed">Скорость подключения</string>
+    <string name="conn_gps_request">Запросить координаты GPS</string>
+    <string name="conn_gps_loc">Координаты: Шир %1$.4f, Долг %2$.4f (Точность: %3$.1fм)</string>
+    <string name="conn_carrier">Оператор связи</string>
+    <string name="conn_net_type">Поколение сети</string>
+
+    <!-- Biometrics -->
+    <string name="biometric_title">Биометрическая аутентификация</string>
+    <string name="biometric_status_label">Статус поддержки аппаратуры</string>
+    <string name="biometric_strong">Класс 3 (Надежная биометрия поддерживается)</string>
+    <string name="biometric_weak">Класс 2 (Базовая биометрия поддерживается)</string>
+    <string name="biometric_none_enrolled">Сенсор есть, но отпечатки/лица не зарегистрированы</string>
+    <string name="biometric_no_hardware">Биометрический сканер не обнаружен</string>
+    <string name="biometric_hw_unavailable">Биометрический модуль временно недоступен</string>
+    <string name="biometric_test_button">Вызвать системное окно проверки</string>
+    <string name="biometric_prompt_title">Проверка биометрии устройства</string>
+    <string name="biometric_prompt_subtitle">Приложите палец к сканеру или посмотрите в камеру</string>
+    <string name="biometric_auth_success">Аутентификация успешна! Сенсор исправен.</string>
+    <string name="biometric_auth_failed">Аутентификация отклонена.</string>
+    <string name="biometric_auth_error">Ошибка биометрии: %1$s</string>
+
+    <!-- System Info -->
+    <string name="sys_device">Модель устройства</string>
+    <string name="sys_manufacturer">Производитель</string>
+    <string name="sys_brand">Бренд и продукт</string>
+    <string name="sys_board">Плата и платформа</string>
+    <string name="sys_soc_abi">Архитектура / ABI</string>
+    <string name="sys_android_ver">Версия Android</string>
+    <string name="sys_api_level">Уровень API</string>
+    <string name="sys_security_patch">Патч безопасности</string>
+    <string name="sys_build_id">Номер сборки</string>
+    <string name="sys_ram_total">Всего ОЗУ</string>
+    <string name="sys_ram_available">Свободно ОЗУ</string>
+    <string name="sys_storage_total">Объем накопителя</string>
+    <string name="sys_storage_free">Свободно на накопителе</string>
+    <string name="sys_gpu_vendor">Производитель GPU</string>
+    <string name="sys_gpu_renderer">Модель GPU</string>
+    <string name="sys_gles_version">Версия OpenGL ES</string>
+    <string name="sys_kernel">Версия ядра Linux</string>
+
+    <!-- Report -->
+    <string name="report_title">Отчет аппаратной диагностики устройства</string>
+    <string name="report_generated_at">Сформирован: %1$s</string>
+    <string name="report_shared_title">Отправить отчет о тестировании устройства</string>
+</resources>
